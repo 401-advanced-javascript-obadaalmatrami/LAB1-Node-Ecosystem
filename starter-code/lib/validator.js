@@ -9,6 +9,14 @@ let validator = module.exports = {};
  * @param rules
  * @returns {boolean}
  */
+
+validator.isCorrectType = (rules, input) => {
+    if (typeof input === 'string') return true;
+    if (typeof input === 'number') return true;
+    if (typeof input === 'object') return true;
+}
+
+
 validator.isValid = (input, rules) => {
     return rules(input);
 };
@@ -70,4 +78,10 @@ validator.isFunction = (input) => {
  */
 validator.isBoolean = (input) => {
     return typeof input === "boolean";
+};
+
+
+validator.isTruthy = (input) => {
+    if (input) return true;
+    else return false;
 };
