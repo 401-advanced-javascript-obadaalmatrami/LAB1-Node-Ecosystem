@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1579871008587" clover="3.2.0">
-  <project timestamp="1579871008587" name="All files">
+<coverage generated="1579871868415" clover="3.2.0">
+  <project timestamp="1579871868415" name="All files">
     <metrics statements="22" coveredstatements="16" conditionals="8" coveredconditionals="0" methods="9" coveredmethods="6" elements="39" coveredelements="22" complexity="0" loc="22" ncloc="22" packages="1" files="1" classes="1"/>
     <file name="validator.js" path="/mnt/c/Users/std14/projects/ltuc/401/LAB1-Node-Ecosystem/starter-code/lib/validator.js">
       <metrics statements="22" coveredstatements="16" conditionals="8" coveredconditionals="0" methods="9" coveredmethods="6"/>

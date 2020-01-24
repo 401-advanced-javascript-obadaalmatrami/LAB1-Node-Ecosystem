@@ -1,6 +1,6 @@
 'use strict';
 
-const validator = require('../starter-code/lib/validator');
+const validator = require('./starter-code/lib/validator');
 
 validator.isValid = (schema, data) => {
     let valid = true;
